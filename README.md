@@ -2,7 +2,9 @@
 
 Finds obsolete CSS rules on the current page.
 
-Copy and paste the following into the console and execute it:
+Just copy and paste the code into the console and execute it.
+
+Alternatively, make it a bookmarklet here: https://www.gibney.org/bookmarklet_editor
 
 ```
 function main() {
