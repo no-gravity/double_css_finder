@@ -17,7 +17,7 @@ function main() {
 
 function addRule(rule) {
     let selector = rule.selectorText;
-  if (!selector) return; // @font-face
+    if (!selector) return; // @font-face
     for (let key of rule.style) {
         value = rule.style[key];
         entry = selector + ' {' + key +": " + value + '}';
